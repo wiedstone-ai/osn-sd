@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Latihan & Try Out OSN SD - Bank Soal Resmi Kemendikdasmen</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- KaTeX for Math Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Canvas Confetti for Try Out Celebrations -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .katex { font-size: 1.1em; }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+  <!-- TOP NAVBAR -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-500 flex items-center justify-center text-white shadow-md shadow-indigo-200">
+          <i class="fa-solid fa-graduation-cap text-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-slate-900 leading-tight flex items-center gap-2">
+            OSN Pintar SD
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">Kemendikdasmen 2025</span>
+          </h1>
+          <p class="text-xs text-slate-500">Bank Soal Resmi & Latihan Interaktif Bertingkat</p>
+        </div>
+      </div>
+
+      <!-- Navigation Modes -->
+      <div class="flex items-center gap-2 bg-slate-100 p-1 rounded-xl">
+        <button id="btn-mode-practice" onclick="switchMainMode('practice')" class="px-4 py-1.5 rounded-lg text-sm font-semibold transition-all bg-white text-indigo-600 shadow-sm">
+          <i class="fa-solid fa-book-open mr-1.5"></i> Mode Latihan
+        </button>
+        <button id="btn-mode-tryout" onclick="switchMainMode('tryout')" class="px-4 py-1.5 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900">
+          <i class="fa-solid fa-stopwatch mr-1.5"></i> Mode Try Out
+        </button>
+      </div>
+
+      <!-- Stats Summary -->
+      <div class="hidden md:flex items-center gap-3">
+        <div class="text-right">
+          <span class="text-xs text-slate-400 block font-medium">Total Bank Soal</span>
+          <span id="badge-total-soal" class="text-sm font-bold text-slate-700">350 Soal</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- ==================== PRACTICE MODE ==================== -->
+    <div id="section-practice" class="space-y-6">
+      <!-- Filter Bar -->
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-4">
+        <!-- Subject Pills -->
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mr-1">Mapel:</span>
+          <button onclick="setFilterMapel('Semua')" class="filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-indigo-600 text-white" data-mapel="Semua">Semua (350)</button>
+          <button onclick="setFilterMapel('Matematika')" class="filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200" data-mapel="Matematika">📐 Matematika (71)</button>
+          <button onclick="setFilterMapel('IPA')" class="filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200" data-mapel="IPA">🔬 IPA (160)</button>
+          <button onclick="setFilterMapel('IPS')" class="filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200" data-mapel="IPS">🌏 IPS (119)</button>
+        </div>
+
+        <!-- Tingkat & Search -->
+        <div class="flex items-center gap-3 w-full sm:w-auto">
+          <select id="select-tingkat" onchange="applyFilters()" class="text-xs font-semibold bg-slate-100 border-none rounded-xl px-3 py-2 text-slate-700 focus:ring-2 focus:ring-indigo-500">
+            <option value="Semua">Semua Jenjang</option>
+            <option value="Kabupaten">OSN-K (Kabupaten)</option>
+            <option value="Provinsi">OSN-P (Provinsi)</option>
+            <option value="Semifinal">OSN Semifinal</option>
+            <option value="Final">OSN Final (Nasional)</option>
+          </select>
+
+          <div class="relative flex-1 sm:w-48">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-xs text-slate-400"></i>
+            <input type="text" id="input-search" oninput="applyFilters()" placeholder="Cari topik / soal..." class="w-full text-xs pl-8 pr-3 py-2 rounded-xl bg-slate-100 border-none focus:ring-2 focus:ring-indigo-500 text-slate-700">
+          </div>
+        </div>
+      </div>
+
+      <!-- Practice Area: Left Question Card, Right Navigation List -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- Left: Current Active Question Card (8 cols) -->
+        <div class="lg:col-span-8 space-y-4">
+          <div id="practice-card" class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm relative">
+            <!-- Question Header Meta -->
+            <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span id="q-badge-mapel" class="px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">Matematika</span>
+                <span id="q-badge-tingkat" class="px-3 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200">Kabupaten</span>
+                <span id="q-badge-topik" class="px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600">Aritmatika</span>
+              </div>
+              <div class="text-xs font-semibold text-slate-400" id="q-counter-label">Soal 1 dari 71</div>
+            </div>
+
+            <!-- Question Body -->
+            <div class="mb-6">
+              <h2 id="q-text" class="text-base sm:text-lg font-medium text-slate-900 leading-relaxed">
+                <!-- Question Text Injected Here -->
+              </h2>
+            </div>
+
+            <!-- Options Container (for Multiple Choice) -->
+            <div id="q-options-container" class="space-y-3 mb-6">
+              <!-- Options Injected Here -->
+            </div>
+
+            <!-- Input for Isian / Uraian -->
+            <div id="q-input-container" class="hidden mb-6 bg-slate-50 p-4 rounded-2xl border border-slate-200">
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Jawaban Anda:</label>
+              <div class="flex gap-2">
+                <input type="text" id="input-isian-user" placeholder="Ketik jawaban singkat di sini..." class="flex-1 bg-white border border-slate-300 rounded-xl px-4 py-2 text-sm focus:ring-2 focus:ring-indigo-500">
+                <button onclick="checkIsianAnswer()" class="px-5 py-2 rounded-xl bg-indigo-600 text-white font-semibold text-sm hover:bg-indigo-700 transition">Periksa</button>
+              </div>
+            </div>
+
+            <!-- Action Buttons: Hint & Solution -->
+            <div class="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-slate-100">
+              <div class="flex items-center gap-2">
+                <button onclick="toggleHint()" class="px-4 py-2 rounded-xl text-xs font-semibold bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200 transition flex items-center gap-1.5">
+                  <i class="fa-solid fa-lightbulb"></i> <span id="btn-hint-text">Buka Petunjuk (Hint)</span>
+                </button>
+                <button onclick="toggleSolution()" class="px-4 py-2 rounded-xl text-xs font-semibold bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200 transition flex items-center gap-1.5">
+                  <i class="fa-solid fa-square-root-variable"></i> <span id="btn-solution-text">Lihat Cara Penyelesaian</span>
+                </button>
+              </div>
+
+              <!-- Next / Prev Buttons -->
+              <div class="flex items-center gap-2">
+                <button onclick="prevQuestion()" class="p-2.5 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-600 text-sm">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button onclick="nextQuestion()" class="px-4 py-2.5 rounded-xl bg-indigo-600 text-white font-semibold text-xs hover:bg-indigo-700 shadow-sm transition flex items-center gap-1.5">
+                  Berikutnya <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Hint Box (Collapsible) -->
+            <div id="box-hint" class="hidden mt-4 p-4 rounded-2xl bg-amber-50/70 border border-amber-200 text-amber-900 text-sm animate-fade-in">
+              <div class="flex items-start gap-2.5">
+                <i class="fa-solid fa-lightbulb text-amber-500 mt-0.5"></i>
+                <div>
+                  <h4 class="font-bold text-xs uppercase tracking-wider text-amber-800 mb-1">Petunjuk Berpikir:</h4>
+                  <p id="hint-text" class="text-xs sm:text-sm leading-relaxed"></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Solution Box (Collapsible) -->
+            <div id="box-solution" class="hidden mt-4 p-5 rounded-2xl bg-emerald-50/80 border border-emerald-200 text-emerald-950 text-sm animate-fade-in">
+              <div class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-emerald-600 mt-0.5"></i>
+                <div class="w-full">
+                  <h4 class="font-bold text-xs uppercase tracking-wider text-emerald-800 mb-1 flex items-center justify-between">
+                    <span>Langkah & Cara Penyelesaian Resmi:</span>
+                    <span id="solution-key-badge" class="px-2.5 py-0.5 bg-emerald-600 text-white text-xs font-bold rounded-lg">Kunci: A</span>
+                  </h4>
+                  <div id="solution-text" class="text-xs sm:text-sm leading-relaxed mt-2 whitespace-pre-line font-normal text-slate-800 bg-white p-4 rounded-xl border border-emerald-100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Question Palette / Navigator (4 cols) -->
+        <div class="lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-6 shadow-sm space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-sm font-bold text-slate-800 flex items-center gap-2">
+              <i class="fa-solid fa-list-ol text-indigo-600"></i> Daftar Nomor Soal
+            </h3>
+            <span id="filter-result-count" class="text-xs text-slate-500 font-medium">350 Soal</span>
+          </div>
+
+          <!-- Quick Navigation Grid -->
+          <div id="question-nav-grid" class="grid grid-cols-5 sm:grid-cols-6 gap-2 max-h-96 overflow-y-auto p-1 custom-scrollbar">
+            <!-- Numbers injected here -->
+          </div>
+
+          <!-- Legend -->
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+            <div class="flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded bg-indigo-600"></span> Aktif
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded bg-emerald-100 border border-emerald-400"></span> Benar
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="w-2.5 h-2.5 rounded bg-rose-100 border border-rose-400"></span> Salah
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TRY OUT MODE ==================== -->
+    <div id="section-tryout" class="hidden space-y-6">
+      
+      <!-- Try Out Setup View (Before Start) -->
+      <div id="tryout-setup-view" class="max-w-2xl mx-auto bg-white rounded-3xl border border-slate-200 p-8 shadow-sm text-center space-y-6">
+        <div class="w-16 h-16 rounded-2xl bg-indigo-50 border border-indigo-200 text-indigo-600 flex items-center justify-center mx-auto text-2xl shadow-inner">
+          <i class="fa-solid fa-stopwatch"></i>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900">Simulasi Ujian Try Out OSN</h2>
+          <p class="text-sm text-slate-500 mt-1">Uji kemampuan dengan batasan waktu resmi dan penilaian akurasi otomatis.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Mata Pelajaran</label>
+            <select id="to-select-mapel" class="w-full text-sm bg-slate-50 border border-slate-200 rounded-xl p-3 focus:ring-2 focus:ring-indigo-500">
+              <option value="Matematika">📐 Matematika OSN SD</option>
+              <option value="IPA">🔬 IPA OSN SD</option>
+              <option value="IPS">🌏 IPS OSN SD</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Tingkat Seleksi</label>
+            <select id="to-select-tingkat" class="w-full text-sm bg-slate-50 border border-slate-200 rounded-xl p-3 focus:ring-2 focus:ring-indigo-500">
+              <option value="Semua">Semua Tingkat (Acak)</option>
+              <option value="Kabupaten">OSN-K (Kabupaten)</option>
+              <option value="Provinsi">OSN-P (Provinsi)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Jumlah Soal</label>
+            <select id="to-select-count" class="w-full text-sm bg-slate-50 border border-slate-200 rounded-xl p-3 focus:ring-2 focus:ring-indigo-500">
+              <option value="10">10 Soal (Latihan Cepat)</option>
+              <option value="20" selected>20 Soal (Standar)</option>
+              <option value="30">30 Soal (Paket Penuh)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Durasi Waktu</label>
+            <select id="to-select-time" class="w-full text-sm bg-slate-50 border border-slate-200 rounded-xl p-3 focus:ring-2 focus:ring-indigo-500">
+              <option value="15">15 Menit</option>
+              <option value="30" selected>30 Menit</option>
+              <option value="60">60 Menit</option>
+            </select>
+          </div>
+        </div>
+
+        <button onclick="startTryOut()" class="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-base shadow-lg shadow-indigo-200 transition">
+          Mulai Ujian Sekarang <i class="fa-solid fa-arrow-right ml-2"></i>
+        </button>
+      </div>
+
+      <!-- Try Out Active Exam View -->
+      <div id="tryout-exam-view" class="hidden space-y-6">
+        <!-- Floating Exam Status Bar -->
+        <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="px-3 py-1 rounded-xl text-xs font-bold bg-indigo-50 text-indigo-700" id="to-exam-badge-mapel">Matematika</span>
+            <span class="text-xs font-medium text-slate-500" id="to-exam-progress-text">Soal 1 dari 20</span>
+          </div>
+
+          <!-- Countdown Timer -->
+          <div class="flex items-center gap-2 bg-rose-50 border border-rose-200 px-4 py-1.5 rounded-xl text-rose-700 font-bold text-sm">
+            <i class="fa-regular fa-clock animate-pulse"></i>
+            <span id="to-timer-display">30:00</span>
+          </div>
+
+          <button onclick="confirmSubmitTryOut()" class="px-4 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm">
+            Selesai Ujian
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+          <!-- Question Box (8 cols) -->
+          <div class="lg:col-span-8 bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+              <span class="text-xs font-bold text-indigo-600" id="to-q-number-title">Nomor 1</span>
+              <button onclick="toggleDoubt()" id="btn-doubt" class="text-xs font-medium px-3 py-1 rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-100">
+                <i class="fa-regular fa-bookmark mr-1"></i> Tandai Ragu-ragu
+              </button>
+            </div>
+
+            <h3 id="to-q-text" class="text-base sm:text-lg font-medium text-slate-900 leading-relaxed"></h3>
+
+            <div id="to-q-options" class="space-y-3">
+              <!-- Options injected here -->
+            </div>
+
+            <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+              <button onclick="prevTryOutQuestion()" class="px-4 py-2 rounded-xl border border-slate-200 hover:bg-slate-100 text-xs font-semibold">
+                <i class="fa-solid fa-chevron-left mr-1"></i> Sebelumnya
+              </button>
+              <button onclick="nextTryOutQuestion()" class="px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-semibold hover:bg-indigo-700">
+                Berikutnya <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Palette (4 cols) -->
+          <div class="lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-6 shadow-sm space-y-4">
+            <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider">Palet Nomor Ujian</h4>
+            <div id="to-palette-grid" class="grid grid-cols-5 gap-2 max-h-80 overflow-y-auto p-1 custom-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Try Out Result Summary View -->
+      <div id="tryout-result-view" class="hidden max-w-2xl mx-auto bg-white rounded-3xl border border-slate-200 p-8 shadow-sm text-center space-y-6">
+        <div class="w-20 h-20 rounded-full bg-emerald-50 border-4 border-emerald-200 text-emerald-600 flex items-center justify-center mx-auto text-3xl">
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900">Hasil Simulasi Try Out OSN</h2>
+          <p class="text-sm text-slate-500 mt-1">Selamat! Berikut evaluasi lengkap capaian latihan anak Anda.</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4">
+          <div class="bg-indigo-50 border border-indigo-100 p-4 rounded-2xl">
+            <span class="text-xs text-indigo-600 font-semibold block">Skor Akhir</span>
+            <span id="to-result-score" class="text-3xl font-extrabold text-indigo-700">85</span>
+            <span class="text-[11px] text-indigo-500 block">Skala 100</span>
+          </div>
+          <div class="bg-emerald-50 border border-emerald-100 p-4 rounded-2xl">
+            <span class="text-xs text-emerald-600 font-semibold block">Jawaban Benar</span>
+            <span id="to-result-correct" class="text-3xl font-extrabold text-emerald-700">17</span>
+            <span class="text-[11px] text-emerald-500 block" id="to-result-total-label">dari 20 Soal</span>
+          </div>
+          <div class="bg-rose-50 border border-rose-100 p-4 rounded-2xl">
+            <span class="text-xs text-rose-600 font-semibold block">Jawaban Salah</span>
+            <span id="to-result-wrong" class="text-3xl font-extrabold text-rose-700">3</span>
+            <span class="text-[11px] text-rose-500 block">Perlu Evaluasi</span>
+          </div>
+        </div>
+
+        <div class="flex gap-3">
+          <button onclick="reviewTryOutInPractice()" class="flex-1 py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm shadow-md shadow-indigo-100 transition">
+            <i class="fa-solid fa-list-check mr-2"></i> Review Pembahasan Soal Ini
+          </button>
+          <button onclick="resetTryOut()" class="px-5 py-3.5 rounded-2xl border border-slate-200 hover:bg-slate-100 text-slate-700 font-semibold text-sm transition">
+            Ujian Baru
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 space-y-1">
+      <p class="font-medium text-slate-600">Disusun dari Buku Resmi OSN SD Kemendikdasmen / Puspresnas 2025</p>
+      <p>Mencakup Pembahasan Langkah Demi Langkah Matematika, IPA, dan IPS Jenjang Kabupaten hingga Final Nasional.</p>
+    </div>
+  </footer>
+
+  <!-- LOAD DATA (Embedded or External JS) -->
+  <script src="data/bank_soal_data.js"></script>
+
+  <!-- APPLICATION LOGIC -->
+  <script>
+    let allQuestions = [];
+    let filteredQuestions = [];
+    let currentIndex = 0;
+    let userAnswers = {}; // { questionId: answerLabel }
+    let filterMapel = 'Semua';
+    let filterTingkat = 'Semua';
+    let searchQuery = '';
+
+    // TRY OUT STATE
+    let tryOutQuestions = [];
+    let tryOutIndex = 0;
+    let tryOutAnswers = {};
+    let tryOutDoubts = new Set();
+    let tryOutTimer = null;
+    let tryOutSecondsLeft = 0;
+
+    // INITIALIZATION
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.BANK_SOAL_DATA && window.BANK_SOAL_DATA.length > 0) {
+        allQuestions = window.BANK_SOAL_DATA;
+        initApp();
+      } else {
+        fetch('data/bank_soal_lengkap.json')
+          .then(res => res.json())
+          .then(data => {
+            allQuestions = data;
+            initApp();
+          })
+          .catch(err => {
+            console.error('Gagal memuat bank_soal_lengkap.json:', err);
+          });
+      }
+    });
+
+    function initApp() {
+      document.getElementById('badge-total-soal').innerText = allQuestions.length + ' Soal';
+      applyFilters();
+    }
+
+    function switchMainMode(mode) {
+      if (mode === 'practice') {
+        document.getElementById('section-practice').classList.remove('hidden');
+        document.getElementById('section-tryout').classList.add('hidden');
+        document.getElementById('btn-mode-practice').className = 'px-4 py-1.5 rounded-lg text-sm font-semibold transition-all bg-white text-indigo-600 shadow-sm';
+        document.getElementById('btn-mode-tryout').className = 'px-4 py-1.5 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900';
+      } else {
+        document.getElementById('section-practice').classList.add('hidden');
+        document.getElementById('section-tryout').classList.remove('hidden');
+        document.getElementById('btn-mode-tryout').className = 'px-4 py-1.5 rounded-lg text-sm font-semibold transition-all bg-white text-indigo-600 shadow-sm';
+        document.getElementById('btn-mode-practice').className = 'px-4 py-1.5 rounded-lg text-sm font-semibold transition-all text-slate-600 hover:text-slate-900';
+      }
+    }
+
+    // ==================== PRACTICE LOGIC ====================
+    function setFilterMapel(mapel) {
+      filterMapel = mapel;
+      document.querySelectorAll('.filter-mapel-btn').forEach(btn => {
+        if (btn.getAttribute('data-mapel') === mapel) {
+          btn.className = 'filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-indigo-600 text-white shadow-sm';
+        } else {
+          btn.className = 'filter-mapel-btn px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200';
+        }
+      });
+      applyFilters();
+    }
+
+    function applyFilters() {
+      filterTingkat = document.getElementById('select-tingkat').value;
+      searchQuery = document.getElementById('input-search').value.toLowerCase().trim();
+
+      filteredQuestions = allQuestions.filter(q => {
+        const matchMapel = (filterMapel === 'Semua') || (q.mapel === filterMapel);
+        const matchTingkat = (filterTingkat === 'Semua') || (q.tingkat === filterTingkat);
+        const matchSearch = (!searchQuery) || 
+          q.pertanyaan.toLowerCase().includes(searchQuery) ||
+          (q.topik && q.topik.toLowerCase().includes(searchQuery)) ||
+          (q.pembahasan && q.pembahasan.toLowerCase().includes(searchQuery));
+        return matchMapel && matchTingkat && matchSearch;
+      });
+
+      document.getElementById('filter-result-count').innerText = filteredQuestions.length + ' Soal';
+      currentIndex = 0;
+      renderCurrentQuestion();
+      renderNavigatorGrid();
+    }
+
+    function renderCurrentQuestion() {
+      if (filteredQuestions.length === 0) {
+        document.getElementById('q-text').innerText = 'Tidak ada soal yang cocok dengan filter yang dipilih.';
+        document.getElementById('q-options-container').innerHTML = '';
+        document.getElementById('q-counter-label').innerText = '0 Soal';
+        return;
+      }
+
+      const q = filteredQuestions[currentIndex];
+
+      // Badges
+      document.getElementById('q-badge-mapel').innerText = q.mapel;
+      document.getElementById('q-badge-tingkat').innerText = q.tingkat;
+      document.getElementById('q-badge-topik').innerText = q.topik || 'Umum';
+      document.getElementById('q-counter-label').innerText = `Soal ${currentIndex + 1} dari ${filteredQuestions.length}`;
+
+      // Question Text
+      document.getElementById('q-text').innerHTML = formatMathText(q.pertanyaan);
+
+      // Options vs Isian
+      const optsContainer = document.getElementById('q-options-container');
+      const inputContainer = document.getElementById('q-input-container');
+      optsContainer.innerHTML = '';
+
+      if (q.pilihan && q.pilihan.length > 0) {
+        optsContainer.classList.remove('hidden');
+        inputContainer.classList.add('hidden');
+
+        q.pilihan.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.className = `w-full text-left p-4 rounded-2xl border text-sm font-medium transition flex items-start gap-3 option-btn`;
+          
+          const isSelected = userAnswers[q.id] === opt.label;
+          const isCorrect = q.kunci_jawaban && q.kunci_jawaban.toUpperCase() === opt.label.toUpperCase();
+
+          if (isSelected) {
+            if (isCorrect) {
+              btn.className += ' bg-emerald-50 border-emerald-400 text-emerald-900 shadow-sm';
+            } else {
+              btn.className += ' bg-rose-50 border-rose-400 text-rose-900 shadow-sm';
+            }
+          } else {
+            btn.className += ' bg-white border-slate-200 hover:border-indigo-300 hover:bg-slate-50/50 text-slate-800';
+          }
+
+          btn.onclick = () => selectPracticeAnswer(q.id, opt.label);
+          btn.innerHTML = `
+            <span class="w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold ${isSelected ? (isCorrect ? 'bg-emerald-600 text-white' : 'bg-rose-600 text-white') : 'bg-slate-100 text-slate-600'}">${opt.label}</span>
+            <span class="flex-1">${formatMathText(opt.text)}</span>
+            ${isSelected ? (isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-600 text-base"></i>' : '<i class="fa-solid fa-circle-xmark text-rose-500 text-base"></i>') : ''}
+          `;
+          optsContainer.appendChild(btn);
+        });
+      } else {
+        optsContainer.classList.add('hidden');
+        inputContainer.classList.remove('hidden');
+        document.getElementById('input-isian-user').value = userAnswers[q.id] || '';
+      }
+
+      // Hide collapsibles on question change
+      document.getElementById('box-hint').classList.add('hidden');
+      document.getElementById('box-solution').classList.add('hidden');
+      document.getElementById('btn-hint-text').innerText = 'Buka Petunjuk (Hint)';
+      document.getElementById('btn-solution-text').innerText = 'Lihat Cara Penyelesaian';
+
+      // Load Hint & Solution texts
+      document.getElementById('hint-text').innerText = q.petunjuk || 'Perhatikan data yang diketahui pada soal dan gunakan konsep inti topik ini.';
+      document.getElementById('solution-key-badge').innerText = 'Kunci: ' + (q.kunci_jawaban || '-');
+      document.getElementById('solution-text').innerHTML = formatMathText(q.pembahasan || 'Pembahasan terstruktur sedang dimuat.');
+
+      // Trigger KaTeX render
+      if (window.renderMathInElement) {
+        renderMathInElement(document.getElementById('practice-card'), {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    }
+
+    function selectPracticeAnswer(qId, label) {
+      userAnswers[qId] = label;
+      renderCurrentQuestion();
+      renderNavigatorGrid();
+    }
+
+    function checkIsianAnswer() {
+      const q = filteredQuestions[currentIndex];
+      const val = document.getElementById('input-isian-user').value.trim();
+      userAnswers[q.id] = val;
+      toggleSolution();
+    }
+
+    function toggleHint() {
+      const box = document.getElementById('box-hint');
+      const isHidden = box.classList.contains('hidden');
+      if (isHidden) {
+        box.classList.remove('hidden');
+        document.getElementById('btn-hint-text').innerText = 'Tutup Petunjuk';
+      } else {
+        box.classList.add('hidden');
+        document.getElementById('btn-hint-text').innerText = 'Buka Petunjuk (Hint)';
+      }
+    }
+
+    function toggleSolution() {
+      const box = document.getElementById('box-solution');
+      const isHidden = box.classList.contains('hidden');
+      if (isHidden) {
+        box.classList.remove('hidden');
+        document.getElementById('btn-solution-text').innerText = 'Sembunyikan Pembahasan';
+        if (window.renderMathInElement) {
+          renderMathInElement(box, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false}
+            ],
+            throwOnError: false
+          });
+        }
+      } else {
+        box.classList.add('hidden');
+        document.getElementById('btn-solution-text').innerText = 'Lihat Cara Penyelesaian';
+      }
+    }
+
+    function nextQuestion() {
+      if (currentIndex < filteredQuestions.length - 1) {
+        currentIndex++;
+        renderCurrentQuestion();
+        renderNavigatorGrid();
+      }
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderCurrentQuestion();
+        renderNavigatorGrid();
+      }
+    }
+
+    function goToQuestion(idx) {
+      currentIndex = idx;
+      renderCurrentQuestion();
+      renderNavigatorGrid();
+    }
+
+    function renderNavigatorGrid() {
+      const grid = document.getElementById('question-nav-grid');
+      grid.innerHTML = '';
+      filteredQuestions.forEach((q, idx) => {
+        const btn = document.createElement('button');
+        const isCurrent = idx === currentIndex;
+        const ans = userAnswers[q.id];
+        let stateClass = 'bg-slate-100 text-slate-700 hover:bg-slate-200';
+
+        if (ans) {
+          const isCorrect = q.kunci_jawaban && q.kunci_jawaban.toUpperCase() === ans.toUpperCase();
+          if (isCorrect) {
+            stateClass = 'bg-emerald-100 border border-emerald-400 text-emerald-800 font-bold';
+          } else {
+            stateClass = 'bg-rose-100 border border-rose-400 text-rose-800 font-bold';
+          }
+        }
+
+        if (isCurrent) {
+          stateClass = 'bg-indigo-600 text-white font-bold ring-2 ring-indigo-300 shadow-sm';
+        }
+
+        btn.className = `h-9 rounded-xl text-xs font-semibold flex items-center justify-center transition ${stateClass}`;
+        btn.innerText = idx + 1;
+        btn.onclick = () => goToQuestion(idx);
+        grid.appendChild(btn);
+      });
+    }
+
+    function formatMathText(txt) {
+      if (!txt) return '';
+      return txt.replace(/\n/g, '<br>');
+    }
+
+    // ==================== TRY OUT LOGIC ====================
+    function startTryOut() {
+      const mapel = document.getElementById('to-select-mapel').value;
+      const tingkat = document.getElementById('to-select-tingkat').value;
+      const count = parseInt(document.getElementById('to-select-count').value);
+      const minutes = parseInt(document.getElementById('to-select-time').value);
+
+      let pool = allQuestions.filter(q => q.mapel === mapel);
+      if (tingkat !== 'Semua') {
+        pool = pool.filter(q => q.tingkat === tingkat);
+      }
+
+      if (pool.length === 0) {
+        alert('Tidak ada soal yang tersedia untuk kriteria ini.');
+        return;
+      }
+
+      // Shuffle pool
+      pool = [...pool].sort(() => Math.random() - 0.5);
+      tryOutQuestions = pool.slice(0, Math.min(count, pool.length));
+      tryOutIndex = 0;
+      tryOutAnswers = {};
+      tryOutDoubts = new Set();
+
+      document.getElementById('tryout-setup-view').classList.add('hidden');
+      document.getElementById('tryout-exam-view').classList.remove('hidden');
+      document.getElementById('tryout-result-view').classList.add('hidden');
+
+      document.getElementById('to-exam-badge-mapel').innerText = mapel;
+      
+      // Timer setup
+      tryOutSecondsLeft = minutes * 60;
+      updateTimerDisplay();
+      if (tryOutTimer) clearInterval(tryOutTimer);
+      tryOutTimer = setInterval(() => {
+        tryOutSecondsLeft--;
+        updateTimerDisplay();
+        if (tryOutSecondsLeft <= 0) {
+          clearInterval(tryOutTimer);
+          alert('Waktu ujian telah habis!');
+          finishTryOut();
+        }
+      }, 1000);
+
+      renderTryOutQuestion();
+      renderTryOutPalette();
+    }
+
+    function updateTimerDisplay() {
+      const m = Math.floor(tryOutSecondsLeft / 60);
+      const s = tryOutSecondsLeft % 60;
+      document.getElementById('to-timer-display').innerText = 
+        `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    }
+
+    function renderTryOutQuestion() {
+      const q = tryOutQuestions[tryOutIndex];
+      document.getElementById('to-exam-progress-text').innerText = `Soal ${tryOutIndex + 1} dari ${tryOutQuestions.length}`;
+      document.getElementById('to-q-number-title').innerText = `Nomor ${tryOutIndex + 1}`;
+      document.getElementById('to-q-text').innerHTML = formatMathText(q.pertanyaan);
+
+      const isDoubt = tryOutDoubts.has(q.id);
+      const doubtBtn = document.getElementById('btn-doubt');
+      if (isDoubt) {
+        doubtBtn.className = 'text-xs font-semibold px-3 py-1 rounded-lg bg-amber-500 text-white shadow-sm';
+        doubtBtn.innerHTML = '<i class="fa-solid fa-bookmark mr-1"></i> Ragu-ragu (Ditandai)';
+      } else {
+        doubtBtn.className = 'text-xs font-medium px-3 py-1 rounded-lg border border-slate-200 text-slate-500 hover:bg-slate-100';
+        doubtBtn.innerHTML = '<i class="fa-regular fa-bookmark mr-1"></i> Tandai Ragu-ragu';
+      }
+
+      const optsContainer = document.getElementById('to-q-options');
+      optsContainer.innerHTML = '';
+
+      if (q.pilihan && q.pilihan.length > 0) {
+        q.pilihan.forEach(opt => {
+          const btn = document.createElement('button');
+          const isSelected = tryOutAnswers[q.id] === opt.label;
+          btn.className = `w-full text-left p-4 rounded-2xl border text-sm font-medium transition flex items-start gap-3 ${isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-900 shadow-sm' : 'bg-white border-slate-200 hover:border-slate-300 hover:bg-slate-50'}`;
+          btn.onclick = () => {
+            tryOutAnswers[q.id] = opt.label;
+            renderTryOutQuestion();
+            renderTryOutPalette();
+          };
+          btn.innerHTML = `
+            <span class="w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold ${isSelected ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-600'}">${opt.label}</span>
+            <span class="flex-1">${formatMathText(opt.text)}</span>
+          `;
+          optsContainer.appendChild(btn);
+        });
+      }
+
+      if (window.renderMathInElement) {
+        renderMathInElement(document.getElementById('tryout-exam-view'), {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+          ],
+          throwOnError: false
+        });
+      }
+    }
+
+    function toggleDoubt() {
+      const q = tryOutQuestions[tryOutIndex];
+      if (tryOutDoubts.has(q.id)) {
+        tryOutDoubts.delete(q.id);
+      } else {
+        tryOutDoubts.add(q.id);
+      }
+      renderTryOutQuestion();
+      renderTryOutPalette();
+    }
+
+    function nextTryOutQuestion() {
+      if (tryOutIndex < tryOutQuestions.length - 1) {
+        tryOutIndex++;
+        renderTryOutQuestion();
+        renderTryOutPalette();
+      }
+    }
+
+    function prevTryOutQuestion() {
+      if (tryOutIndex > 0) {
+        tryOutIndex--;
+        renderTryOutQuestion();
+        renderTryOutPalette();
+      }
+    }
+
+    function renderTryOutPalette() {
+      const grid = document.getElementById('to-palette-grid');
+      grid.innerHTML = '';
+      tryOutQuestions.forEach((q, idx) => {
+        const btn = document.createElement('button');
+        const isCurrent = idx === tryOutIndex;
+        const isAnswered = !!tryOutAnswers[q.id];
+        const isDoubt = tryOutDoubts.has(q.id);
+
+        let colorClass = 'bg-slate-100 text-slate-600';
+        if (isDoubt) colorClass = 'bg-amber-400 text-white font-bold';
+        else if (isAnswered) colorClass = 'bg-indigo-600 text-white font-bold';
+
+        if (isCurrent) colorClass += ' ring-2 ring-slate-900 shadow-md';
+
+        btn.className = `h-10 rounded-xl text-xs flex items-center justify-center transition ${colorClass}`;
+        btn.innerText = idx + 1;
+        btn.onclick = () => {
+          tryOutIndex = idx;
+          renderTryOutQuestion();
+          renderTryOutPalette();
+        };
+        grid.appendChild(btn);
+      });
+    }
+
+    function confirmSubmitTryOut() {
+      const answeredCount = Object.keys(tryOutAnswers).length;
+      const total = tryOutQuestions.length;
+      if (confirm(`Anda telah menjawab ${answeredCount} dari ${total} soal.\nYakin ingin menyelesaikan ujian?`)) {
+        finishTryOut();
+      }
+    }
+
+    function finishTryOut() {
+      if (tryOutTimer) clearInterval(tryOutTimer);
+      document.getElementById('tryout-exam-view').classList.add('hidden');
+      document.getElementById('tryout-result-view').classList.remove('hidden');
+
+      let correct = 0;
+      let wrong = 0;
+
+      tryOutQuestions.forEach(q => {
+        const ans = tryOutAnswers[q.id];
+        if (ans) {
+          if (q.kunci_jawaban && q.kunci_jawaban.toUpperCase() === ans.toUpperCase()) {
+            correct++;
+          } else {
+            wrong++;
+          }
+        }
+      });
+
+      const total = tryOutQuestions.length;
+      const score = Math.round((correct / total) * 100);
+
+      document.getElementById('to-result-score').innerText = score;
+      document.getElementById('to-result-correct').innerText = correct;
+      document.getElementById('to-result-wrong').innerText = wrong;
+      document.getElementById('to-result-total-label').innerText = `dari ${total} Soal`;
+
+      if (score >= 70 && window.confetti) {
+        confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      }
+    }
+
+    function reviewTryOutInPractice() {
+      filteredQuestions = tryOutQuestions;
+      currentIndex = 0;
+      userAnswers = { ...tryOutAnswers };
+      switchMainMode('practice');
+      renderCurrentQuestion();
+      renderNavigatorGrid();
+    }
+
+    function resetTryOut() {
+      document.getElementById('tryout-setup-view').classList.remove('hidden');
+      document.getElementById('tryout-result-view').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

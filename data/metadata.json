@@ -1,0 +1,20 @@
+{
+  "judul_resmi": "Buku Kumpulan Soal OSN Olimpiade Sains Nasional Jenjang SD/MI/Sederajat 2025",
+  "penerbit": "Pusat Prestasi Nasional (Puspresnas) & Balai Pengembangan Talenta Indonesia (BPTI)",
+  "kementerian": "Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen)",
+  "penasihat": "Abdul Mu'ti (Mendikdasmen)",
+  "penulis": "Dewan Juri OSN 2025",
+  "total_halaman_buku": 259,
+  "total_soal": 350,
+  "rekapitulasi_mata_pelajaran": {
+    "Matematika": 71,
+    "IPA": 160,
+    "IPS": 119
+  },
+  "rekapitulasi_jenjang": {
+    "Kabupaten (OSN-K)": 150,
+    "Provinsi (OSN-P)": 90,
+    "Semifinal": 45,
+    "Final (Nasional)": 65
+  }
+}

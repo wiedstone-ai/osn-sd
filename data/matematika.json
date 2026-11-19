@@ -1,0 +1,1501 @@
+[
+  {
+    "id": "OSN-SD-MAT-KAB-01",
+    "nomor": 1,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Terdapat bilangan-bilangan sebagai berikut: 75% ; 0,745 ;   ;    . Jika bilangan-\nbilangan tersebut diurutkan dari 100  3 nilai terkecil hingga terbesar, maka urutannya\nadalah ….\n;\n;0,745 ;75%",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "; ;0,745 ;75%"
+      },
+      {
+        "label": "B",
+        "text": "; 0,745 ; 75%"
+      },
+      {
+        "label": "C",
+        "text": "; ; ; 0,745 ; 75%"
+      },
+      {
+        "label": "D",
+        "text": ""
+      }
+    ],
+    "kunci_jawaban": "A",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "A\n75%   = 0,75\n0,745 = 0,745\nJadi jika diurutkan bilangan dari nilai terkecil hingga terbesar adalah\n0,67\n0,6666\n;\n;0,745 ;75%"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-02",
+    "nomor": 2,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Sosial",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Rifky mempunyai uang Rp50.000,00. Uang tersebut akan digunakan untuk membeli\nkue yang dijual dengan harga Rp10.000,00 per bungkus. Jika satu bungkus berisi tiga\nkue, maka maksimal banyaknya kue yang didapat Rifky adalah … kue.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "kunci_jawaban": "D",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Sosial. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "D\nJumlah kelompok = Total uang / Harga per kelompok Jumlah kelompok =\nRp50.000,00 / Rp10.000,00 Jumlah kelompok = 5\nKarena setiap kelompok berisi 3 kue, maka total kue yang diperoleh Rifky adalah:\nTotal gorengan = Jumlah kelompok × Jumlah kue per kelompok Total kue = 5 × 3\nTotal kue = 15\nJadi, kue yang diperoleh Rifky sebanyak 15 kue."
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-03",
+    "nomor": 3,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Sebuah kubus dengan panjang rusuk 4 cm dicat seluruh permukaannya dengan warna\nmerah. Kubus tersebut kemudian dipotong-potong menjadi kubus-kubus kecil dengan\npanjang rusuk 1 cm. Banyak kubus kecil yang tepat memiliki dua sisi berwarna merah\nadalah ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "32"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-04",
+    "nomor": 4,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Perhatikan gambar di bawah ini.\nJika luas P adalah 2 cm2, maka luas daerah ABCDEFGH adalah …cm2",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "38"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "42"
+      },
+      {
+        "label": "D",
+        "text": "44"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 40\nLuas daerah ABCDEFGH=Luas I + Luas II + Luas III\nLuas I = 10 x luas P = 20 cm\nLuas II = 6 x luas P = 12 cm\nLuas III = ½ luas EFXG = ½ x 8 x luas P = 8 cm\nJadi Luas ABCDEFGH = 40 cm"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-05",
+    "nomor": 5,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Statistika",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Berikut adalah data banyaknya jawaban benar dari 10 siswa yang mengikuti\nkompetisi matematika SD: 10, 12, 8, 15, 17, 18, 25, 30, 35, 40. Rata-rata banyaknya\njawaban benar dari 10 siswa tersebut adalah ....",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Statistika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 21\nJumlah\nseluruh\nsiswa\nyang\nmenjawab\nbenar\nadalah:\n10+12+8+15+17+18+25+30+35+40=210\nBanyaknya data adalah 10.\nRata-rata = Jumlah seluruh data / Banyaknya data\nRata-rata = 210/10\nRata-rata = 21\nJadi, rata-rata dari jumlah siswa yang menjawab benar adalah 21."
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-06",
+    "nomor": 6,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Sosial",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Pukul 06.15 Amir berangkat ke sekolah naik sepeda dengan kecepatan 10 km/jam.\nJika jarak rumah Amir ke sekolah adalah 3 km, maka Amir tiba di sekolah pada pukul ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "06.24"
+      },
+      {
+        "label": "B",
+        "text": "06.33"
+      },
+      {
+        "label": "C",
+        "text": "06.44"
+      },
+      {
+        "label": "D",
+        "text": "06.55"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Sosial. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 06.33\nMenghitung waktu yang ditempuh Amir ke sekolah: v ="
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-07",
+    "nomor": 7,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Teori Bilangan & Pecahan",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Terdapat 10 kartu bilangan prima pertama. Banyaknya cara mengambil 2 kartu\nsehingga jumlah bilangan dari kedua kartu tersebut bernilai ganjil adalah … cara.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Teori Bilangan & Pecahan. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 9"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-08",
+    "nomor": 8,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Sebuah tim cerdas cermat terdiri dari 3 siswa yang dipilih dari 4 siswa terbaik di kelas.\nBanyak tim berbeda yang mungkin dapat dibentuk adalah ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "kunci_jawaban": "A",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "A. 4\nMemilih 3 siswa dari 4 siswa terbaik. Urutan pemilihan tidak penting\nKombinasi memilih 3 dari 4.\nC(n,k) = k!(n−k)!n!\nC(4,3) = 4!/(4-3)!*3! = 4\nJadi ada 4 susunan tim yang berbeda."
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-09",
+    "nomor": 9,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Lina memiliki tiga kotak berisi pensil. Kotak pertama berisi 24 pensil. Kotak kedua\nberisi tiga kali dari isi kotak pertama, dan kotak ketiga berisi setengah dari isi kotak\nkedua.\nBanyak pensil yang dimiliki Lina dari ketiga kotak tersebut adalah….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "96"
+      },
+      {
+        "label": "B",
+        "text": "120"
+      },
+      {
+        "label": "C",
+        "text": "132"
+      },
+      {
+        "label": "D",
+        "text": "144"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 132\nKotak pertama = 24 pensil\nKotak kedua = 3 × 24 = 72 pensil\nKotak ketiga = ½ × 72 = 36 pensil\nTotal pensil = 24 + 72 + 36 = 132 pensil"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-10",
+    "nomor": 10,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "isian_singkat",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "=\nt = 0,3 jam = 18 menit\nAmir tiba di sekolah: pukul 06.15 ditambah 18 menit, pukul 06.33",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-11",
+    "nomor": 11,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "isian_singkat",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Jumlah dari",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-12",
+    "nomor": 12,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Dua buah bangun yang berbentuk persegi dan segitiga mempunyai keliling yang\nsama. Sisi-sisi segitiga tersebut mempunyai panjang 10 cm, 16 cm dan 10 cm. Jumlah\nluas kedua bangun tersebut adalah… cm",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "72"
+      },
+      {
+        "label": "B",
+        "text": "84"
+      },
+      {
+        "label": "C",
+        "text": "129"
+      },
+      {
+        "label": "D",
+        "text": "177"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 129\nPembahasan:\nPerhatikan gambar segitiga berikut:\nTinggi segitiga:\nt = √10  − 8  =6 cm\nkeliling segitiga = keliling persegi, maka\nPanjang sisi persegi adalah 10+16+10 = 4s"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-13",
+    "nomor": 13,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "isian_singkat",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Sebuah taman kota terdiri dari tiga taman yang saling berimpitan yaitu taman 1,\ntaman 2 dan taman 3 yang masing-masing berbentuk persegi seperti pada gambar\nberikut.",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-14",
+    "nomor": 14,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Statistika",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Data peminjaman buku siswa kelas 4, 5, dan 6 selama satu minggu di perpustakaan\nsekolah disajikan dalam diagram batang berikut.\nPernyataan yang tepat mengenai data tersebut adalah….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "rata-rata banyak buku yang dipinjam oleh tiap kelas adalah 30 buku."
+      },
+      {
+        "label": "B",
+        "text": "selisih banyak buku yang dipinjam antara kelas 6 dengan kelas 4 adalah 15 buku."
+      },
+      {
+        "label": "C",
+        "text": "median dari data peminjaman buku adalah 35 buku."
+      },
+      {
+        "label": "D",
+        "text": "jumlah buku yang dipinjam oleh ketiga kelas adalah 100 buku."
+      }
+    ],
+    "kunci_jawaban": "D",
+    "petunjuk": "Fokus pada konsep dasar Statistika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "D. 100\nA. Rata-rata jumlah buku yang dipinjam adalah 30 buku. Rata-rata = (Jumlah buku Kelas"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-15",
+    "nomor": 15,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Statistika",
+    "tingkat_kesulitan": "Sedang",
+    "pertanyaan": "Median dari data berikut:\nadalah ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "0,5"
+      },
+      {
+        "label": "B",
+        "text": "0,625"
+      },
+      {
+        "label": "C",
+        "text": "0,75"
+      },
+      {
+        "label": "D",
+        "text": "0,8"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Statistika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 0,625\n0,235\n0,8\n0,5\n0,235\n0,75\nJadi Data diurutkan dari yang terkecil 0,235 ; 0,5 ; 0,75 ; 0,8\nMedian =                    = 0,625"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-16",
+    "nomor": 16,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "isian_singkat",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Mei 2025 pukul 04.00 mencapai −48°𝐶, dua jam kemudian yaitu pukul 06.00\nmengalami kenaikan sebesar 2 derajat sehingga suhu udara menjadi −48°𝐶 + 2°𝐶 =\n−46°𝐶.\nDua jam kemudian yaitu pukul 08.00 mengalami penurunan sebesar 3 derajat Celsius\nsehingga suhu udara menjadi −46°𝐶 − 3°𝐶 = −49°𝐶.",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-17",
+    "nomor": 17,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Kombinatorika",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Pak Agung memiliki 4 anak dan 1 istri. Hari minggu, Pak Agung dan keluarga akan\nmelakukan foto bersama di studio foto. Banyak cara menata pose foto dalam satu baris\ndari keluarga pak Agung sehingga Pak Agung dan Istri berdiri saling berdampingan\nadalah ...",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "120 cara"
+      },
+      {
+        "label": "B",
+        "text": "140 cara"
+      },
+      {
+        "label": "C",
+        "text": "220 cara"
+      },
+      {
+        "label": "D",
+        "text": "240 cara"
+      }
+    ],
+    "kunci_jawaban": "D",
+    "petunjuk": "Fokus pada konsep dasar Kombinatorika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "D. 240"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-18",
+    "nomor": 18,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Teori Bilangan & Pecahan",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Aris akan mengisi petak 2 x 2 berikut dengan bilangan prima berbeda yang nilainya\nmasing-masing kurang dari 40.\nBanyak cara untuk mengisi petak-petak tersebut adalah…cara.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "64"
+      },
+      {
+        "label": "C",
+        "text": "11880"
+      },
+      {
+        "label": "D",
+        "text": "20736"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Teori Bilangan & Pecahan. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 11880\nBilangan prima kurang dari 40 adalah 2,3,5,7,11,13,17,19, 23, 29, 31 dan 37(12\nbilangan). Maka\nbanyaknya cara menyusun bilangan-bilangan tersebut pada 4 petak adalah"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-19",
+    "nomor": 19,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Kombinatorika",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Terdapat 5 pasang putra putri duta pendidikan dari 5 sekolah dan akan dibentuk tim\nkepanitiaan yang terdiri dari 2 putra dan 2 putri. Jika tidak boleh ada putra dan putri dari\nsatu sekolah yang sama dalam kepanitiaan, maka banyak cara membentuk tim\nkepanitiaan adalah…cara.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "100"
+      },
+      {
+        "label": "C",
+        "text": "200"
+      },
+      {
+        "label": "D",
+        "text": "210"
+      }
+    ],
+    "kunci_jawaban": "A",
+    "petunjuk": "Fokus pada konsep dasar Kombinatorika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "A. 30\nAda 5 putra dan 5 putri dipilih 2 putra dan 2 putri. Pilih 2 orang dari 5 putra =       . 2\nputri tidak boleh dipilih karena pasangan duta putra sudah terpilih. Pilih 2 orang dari 3\nputri =\nx         = 10 x 3 = 30"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-20",
+    "nomor": 20,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Jika 35% dari suatu bilangan adalah 75, maka 21% dari bilangan tersebut adalah ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "35"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "55"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 45\nPembahasan:\nJika 35% bilangan z = 75,\nmaka bilangan z = 75 : (35/100) =75 x (100/35)\n21% dari bilangan z adalah (21/100) x 75 x (100/35) = 45"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-21",
+    "nomor": 21,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Teori Bilangan & Pecahan",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Bilangan yang tidak dapat dinyatakan sebagai penjumlahan dari 3 bilangan prima\nyang berbeda adalah….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "13"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Teori Bilangan & Pecahan. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 13\npenjumlahan tiga bilangan prima yang mungkin 12=2+3+7\n13=3+3+7 (2 bilangan prima sama)\n14=2+5+7\n15=3+5+7"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-22",
+    "nomor": 22,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Teori Bilangan & Pecahan",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Misalkan x adalah suatu pecahan. Jika pembilang dari x ditambah 3 maka nilainya\nmenjadi     . Jika penyebut dari x dikurangi 1 maka nilainya menjadi    . Nilai x adalah….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "B."
+      },
+      {
+        "label": "C",
+        "text": "D."
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Teori Bilangan & Pecahan. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B.\nMisalkan x =\n=   maka 3𝑎 + 9 = 2𝑏 …. (1)\n=    maka 2𝑎 + 1 = 𝑏 …. (2)\nDari 1 dan 2 maka, 3𝑎 + 9 = 2(2𝑎 + 1), 3𝑎 + 9 = 4𝑎 + 2 = 7a\nMaka 𝑏 = 2𝑎 + 1 = 2.7 + 1 = 15\nJadi x ="
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-23",
+    "nomor": 23,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Sepuluh kubus yang masing-masing memiliki panjang rusuk 1 cm akan disusun\nsehingga sisinya bersisian dan membentuk satu bangun ruang baru. Luas permukaan\nminimal bangun ruang baru tersebut adalah …𝑐𝑚 .\nContoh dua kubus yang bersisian:\nContoh dua kubus yang tidak bersisian:",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "28"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 30"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-24",
+    "nomor": 24,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Perhatikan gambar berikut:\n𝐿∆𝐴𝐺𝐻 =   𝐺𝐻. 7 = 3,5 𝐺𝐻\n𝐿∆𝐴𝐸𝐹 =   𝐸𝐹. 7 = 3,5 𝐸𝐹\n𝐿∆𝐴𝐷𝐸 =   𝐷𝐸. 7 = 3,5 𝐷𝐸\n𝐿∆𝐴𝐵𝐶 =   𝐵𝐶. 7 = 3,5 𝐵𝐶\nLuas daerah yang diarsir :\n3,5𝐺𝐻 + 3,5𝐸𝐹 + 3,5𝐷𝐸 + 3,5𝐵𝐶 = 42\n3,5(𝐺𝐻 + 𝐸𝐹 + 𝐷𝐸 + 𝐵𝐶) = 42\n(𝐺𝐻 + 𝐸𝐹 + 𝐷𝐸 + 𝐵𝐶) = 12\nJika luas persegi 𝐴𝐵𝐸𝐼 49 𝑐𝑚  dan daerah yang diarsir dalam persegi adalah 35 𝑐𝑚  maka\npanjang 𝐵𝐶 +𝐷𝐸 + 𝐸𝐹 + 𝐺𝐻 = … 𝑐𝑚.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Geometri. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 12\nLuas persegi = 49\n𝑠  = 49 ⇒ 𝑠 = 7"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-25",
+    "nomor": 25,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Statistika",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Sepuluh anak membentuk kelompok bermain yang masing-masing terdiri dari empat\nanak dan enam anak. Rata-rata usia kelompok empat anak adalah 6 tahun, dan rata-rata\nusia kelompok enam anak adalah 6,5 tahun. Jika satu anak dari masing-masing\nkelompok ditukarkan, maka rata-rata usia kedua kelompok sama. Selisih usia kedua anak\nyang ditukarkan adalah … tahun.",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "1,2"
+      },
+      {
+        "label": "B",
+        "text": "1,0"
+      },
+      {
+        "label": "C",
+        "text": "0,5"
+      },
+      {
+        "label": "D",
+        "text": "0,25"
+      }
+    ],
+    "kunci_jawaban": "A",
+    "petunjuk": "Fokus pada konsep dasar Statistika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "A. 1,2\nMisalkan usia yang dipertukarkan adalah A dan B\nTotal usia kelompok empat anak = 4 x 6 = 24\nTotal usia kelompok enam anak = 6 x 6,5 = 39"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-26",
+    "nomor": 26,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Kombinatorika",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Bilangan genap lima angka akan disusun dari angka- angka 1, 2, 3, dan 5, dengan\nketentuan sebagai berikut:\na. semua angka harus digunakan\nb. angka 5 boleh muncul maksimal dua kali\nc. angka 2 hanya muncul satu kali.\nBanyak susunan bilangan genap yang mungkin adalah ….",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "42"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Kombinatorika. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. 36\nKarena bilangan yang akan dibentuk adalah bilangan genap, maka angka terakhir\n(satuan) haruslah angka 2. Kita akan mempertimbangkan posisi angka 5.\nAngka 5 muncul satu kali Angka terakhir harus 2. Kita memiliki 4 posisi tersisa untuk\ndiisi oleh angka 1, 3, dan 5. Banyak cara menyusun 3 angka berbeda dalam 4 posisi\nadalah permutasi\nP(4,3) = 4!/(4−3)!\n= 4×3×2=24.\nAngka 5 muncul dua kali Angka terakhir harus 2. 4 posisi tersisa untuk diisi oleh\nangka 1, 3, 5, dan 5. Banyak cara menyusun 4 angka ini dengan 2 angka yang sama\nadalah 4!/1!×1!×2!=24/2=12.\nTotal cara = 24 + 12 = 36\nJadi, banyak cara bilangan genap 5 angka yang mungkin terbentuk adalah 36 cara."
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-27",
+    "nomor": 27,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Bilangan-bilangan disusun dengan pola sebagai berikut: 12, 20, 30, 42, 56, 72, 90,\n….\nJika angka-angka penyusun pada bilangan ke-15 dijumlahkan maka hasilnya adalah …",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 9\nrumus umum untuk suku ke-n dari pola bilangan ini adalah: Un=(n+2)(n+3)=n\n+5n+6\nSuku ke-15,\nU15=(15+2)(15+3)=17×18\nMari kita hitung nilai 17×18: 17×18=306\nJadi, bilangan ke-15 dalam pola ini adalah 306.\nMenjumlahkan angka-angka pada suku ke-15, yaitu 306: 3+0+6=9"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-28",
+    "nomor": 28,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Hasil dari                               adalah....\nThe result of                              is....",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C.15"
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-29",
+    "nomor": 29,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Sosial",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Andika berbelanja di toko alat-alat tulis membeli beberapa barang yaitu sepuluh\nbuku tulis, lima pensil, satu penggaris dan satu kotak pensil. Harga satu buku\nRp5.000,00; satu pensil atau satu penggaris Rp2000,00; dan satu kotak pensil\nRp30.000,00. Jika toko memberikan diskon 10% untuk buku dan 5% untuk kotak pensil,\nmaka jumlah yang harus dibayar oleh Andika adalah ....",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "Rp92.000,00"
+      },
+      {
+        "label": "B",
+        "text": "Rp88.400,00"
+      },
+      {
+        "label": "C",
+        "text": "Rp85.500,00"
+      },
+      {
+        "label": "D",
+        "text": "Rp83.800,00"
+      }
+    ],
+    "kunci_jawaban": "C",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Sosial. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "C. Rp85.500,00\nHarga 10 buku tulis dengan diskon 10% adalah 10*5000*90%=45.000\nHarga 5 pensil = 5*2000=10000 Harga 1 penggaris =2000\nHarga kotak pensil dengan diskon 5% = 30000*95%=28.500 Jumlah yang harus dibayar\noleh Andika = 45.000+10.000+2.000+28.500=85.500\nKeterangan pengecoh A jumlah tanpa diskon, B seluruhnya diskon 5%, D seluruhnya\ndiskon 10%."
+  },
+  {
+    "id": "OSN-SD-MAT-KAB-30",
+    "nomor": 30,
+    "mapel": "Matematika",
+    "bab": "BAB 1: OSN Tingkat Kabupaten",
+    "tingkat": "Kabupaten",
+    "tipe": "pilihan_ganda",
+    "topik": "Aritmatika Dasar",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Diberikan tiga bilangan bulat positif 𝑎, 𝑏, 𝑐, dengan 𝑎 : 𝑏 = 𝑏 : 𝑐 = 𝑐 : 𝑎. Hasil dari\nadalah....",
+    "pilihan": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "110"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "130"
+      }
+    ],
+    "kunci_jawaban": "B",
+    "petunjuk": "Fokus pada konsep dasar Aritmatika Dasar. Analisis langkah demi langkah apa yang diketahui dan ditanyakan.",
+    "pembahasan": "B. 110\nDari soal diketahui\n𝑎 : 𝑏 = 𝑏 : 𝑐 = 𝑐 : 𝑎 maka 𝑎3 = 𝑏3 = 𝑐3\nKarena 𝑎, 𝑏, 𝑐 positif maka 𝑎 = 𝑏 = 𝑐, sehingga\nBAB 2\nB\nB\nBAB 2\nOSN Provinsi"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-01",
+    "nomor": 1,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Teori Bilangan & Pola",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Jika hasil penjumlah bilangan pada setiap baris, kolom maupun diagonal adalah sama,\nmaka bilangan pengganti 𝑥 adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "18",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "18\n23+20+17=60, maka hasil penjumlahannya adalah 60. Misal 15+20+y=60 maka y= 25\nmaka x+17+25=60 jadi x= 18"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-02",
+    "nomor": 2,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Pada awal pendirian klub penggemar badminton terdiri atas 15 anak laki-laki dan 20\nanak perempuan. Klub ini mampu menarik minat anak-anak lain untuk bergabung.\nsehingga setiap bulan, 1 anak perempuan baru dan 2 anak laki-laki baru bergabung ke\nklub. Setelah beberapa waktu jumlah anak laki-laki di klub sama dengan jumlah anak\nperempuan, sehingga anggota klub di waktu tersebut adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "50",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "50\nDalam lima bulan , akan ada 5 anak perempuan dan 10 anak laki-laki lagi di klub. Pada\nsaat itu, akan ada 25 anak laki-laki dan 25 anak perempuan secara keseluruhan. Akan\nada 25 + 25 = 50 anak di klub"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-03",
+    "nomor": 3,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Sebuah pesawat berangkat dari kota A pada hari Sabtu pukul 08.20 waktu\nsetempat. Pesawat tersebut tiba di kota B pada hari Minggu pukul 06.35 waktu\nsetempat. Waktu tempuh penerbangan tersebut adalah 14 jam 15 menit. Perbedaan\nwaktu antara kota A dan kota B adalah... jam",
+    "pilihan": [],
+    "kunci_jawaban": "8",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "8"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-04",
+    "nomor": 4,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Keliling bangun di bawah ini adalah … satuan panjang.",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-05",
+    "nomor": 5,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Teori Bilangan & Pola",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Misalkan ABCD adalah bilangan ribuan yang habis dibagi 3. Diketahui pula ABC\nbilangan ratusan habis dibagi 4 dan AB bilangan puluhan habis dibagi 5. Bilangan\nABCD terbesar adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "9567",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "9567\nABCD adalah bilangan terbesar sehingga pilih A=9. Karena AB habis dibagi 5 maka B=0\natau 5, karena dipilih terbesar maka B=5. Karena ABC habis dibagi 4, maka 5C habis\ndibagi 4, karena dipilih yang terbesar, maka C=6. Karena ABCD habis dibagi 3, maka\n9+5+6+D=20+D habis dibagi 3, karena dipilih terbesar, maka D=7. Sehingga bilangan\nABCD yang memenuhi adalah 9567."
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-06",
+    "nomor": 6,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Teori Bilangan & Pola",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Setiap simbol di atas melambangkan sebuah bilangan. Hasil penjumlahan bilangan-\nbilangan pada setiap baris dan kolom terlihat di samping kanan dan bawah tabel. Hasil\npenjumlahan bilangan-bilangan pada kolom pertama adalah ….\nJAWAB: 25\n24+26+23+26=?+24+23+27\n25=?\nLihat baris 2 dan 3 : Donut – hati = 3\nLihat baris 4",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-07",
+    "nomor": 7,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Misalkan A =                                      dan B =                                        maka hasil dari 2026\n+ A - (2025 + B) adalah....",
+    "pilihan": [],
+    "kunci_jawaban": "2025",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "2025\nPerhatikan bahwa 2026 + 𝐴 − 2025 − 𝐵 = 2026 +                                      - 2025 +\n= 1 + 1 + 1 + ...+ 1 = 2025"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-08",
+    "nomor": 8,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "20 + 14.15 = 22.35\nPerbedaan waktu: 22.35 + x = 06.35 x = 8 jam\nSoal Uraian",
+    "pilihan": [],
+    "kunci_jawaban": "28",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "28\n6+8+6+8=28"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-09",
+    "nomor": 9,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Diketahui ABCD suatu persegi. Jika luas daerah DHJK adalah 9 cm2, maka panjang\nsisi persegi ABCD adalah … cm.",
+    "pilihan": [],
+    "kunci_jawaban": "6 cm",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "6 cm\nMisal, HB = a, AB = 2a\nLuas HBKJ = a\nLuas DCK = a  Luas DAH = a   Luas ABCD = 4a\nLuas arsir = luas ABCD – luas (EBFO +DCF + DAE) 9 = 4a  –\n(a  + a  + a  )"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-10",
+    "nomor": 10,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Berikut adalah data Penduduk di Kecamatan Tanjung Puri pada bulan Juni Tahun\nKeterangan :\nL : Laki-laki, P : Perempuan\nMisalkan A adalah rata-rata jumlah penduduk laki-laki di kecamatan Tanjung Puri.\nBanyak kelurahan di Kecamatan Tanjung Puri yang jumlah penduduk berjenis kelamin\nlaki-laki kurang dari A adalah … kelurahan.",
+    "pilihan": [],
+    "kunci_jawaban": "4",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "4\nNo\nKelurahan\nJumlah Penduduk\nLaki laki\nBunga Tanjung"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-11",
+    "nomor": 11,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Andi, Bardi, Clara, Dora, dan Endang tinggal di RW yang sama. Dua dari mereka\ntinggal di RT1 dan tiga lainnya tinggal RT2. Dora tinggal di RT yang berbeda dengan\nClara dan Endang. Bardi tinggal di RT yang berbeda dengan Andi dan Clara. Yang\nrumahnya di RT1 adalah…..",
+    "pilihan": [],
+    "kunci_jawaban": "Bardi dan Dora",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "Bardi dan Dora\nKarena Clara dan Endang tidak tinggal di RT yang sama dengan Dora, mereka tinggal di\nRT yang sama. Karena Andi dan Clara tidak tinggal di RT yang sama dengan Bardi,\nmereka juga tinggal di RT yang sama. Jadi, Clara, Endang, dan Andi tinggal di RT yang\nsama yaitu RT2. Ini berarti Bardi dan Dora tinggal di RT1"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-12",
+    "nomor": 12,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Dua buah dadu warna merah dan biru dilempar bersamaan. Mata dadu yang muncul\nkemudian dijumlahkan dan dikalikan. Sebagai contoh, misalnya saat pelemparan muncul\nmata dadu 2 pada dadu merah dan mata dadu 3 pada dadu biru",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-13",
+    "nomor": 13,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "434\n½ bagian peremp uan\nTanjungMa laka",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-14",
+    "nomor": 14,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "836\n0,75 bagian peremp uan\nTanjung Sari",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-15",
+    "nomor": 15,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "063\nL:P=2:1\nSabana Tanjung",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-16",
+    "nomor": 16,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Diketahui jari-jari tabung A, B dan C berturut-turut adalah 8 cm, 3 cm dan 2 cm.\nSedangkan tinggi tabung A, B dan C berturut-turut adalah 15 cm, 7 cm dan 3 cm.\nAndika ingin mengisi tabung A hingga penuh menggunakan air dari tabung B dan\ntabung C. Berapa kali jumlah minimum yang mungkin untuk tabung B dan tabung C\nharus digunakan (masing-masing diisi penuh lalu dituangkan ke tabung A) agar tabung\nA terisi penuh?",
+    "pilihan": [],
+    "kunci_jawaban": "29 kali",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "29 kali\nVolume tabung A = pi*64*15=960pi Volume tabung B = pi * 9*7=63pi Volume tabung\nC = pi * 4*3=12pi\nBanyaknya pengisian minimal adalah 29 kali dengan rincian 12 kali tabung B dan 17 kali\ntabung C"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-17",
+    "nomor": 17,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Banyak siswa SD Permata Bunda kelas VIA adalah 45 siswa, sementara banyak\nsiswa kelas VIB adalah 40 siswa. Perbandingan rata-rata uang jajan siswa kelas VIA\ndengan rata-rata uang jajan siswa kelas VIB adalah 2 : 3. Bila rata-rata uang jajan siswa\npada kedua kelas adalah Rp 7.000,00. Maka rata- rata uang jajan siswa kelas VIB\nadalah… rupiah.",
+    "pilihan": [],
+    "kunci_jawaban": "8.500",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "8.500\nKelas VIA : 45 siswa Kelas VIB : 40 siswa\nRata-rata UJ Kelas VIA = RA Rata-rata UJ Kelas VIB = RB\nRA : RB = 2 : 3 ⇒ RA = (2/3) RB\nTotal siswa kelas VIA dan VIB : 85\nRata-rata uang jajan siswa kedua kelas = 7000 7000 = (45 ×RA+40 ×RB)/85\n= (45 ×2/3×RB+40 × RB)/85"
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-18",
+    "nomor": 18,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Aljabar & Problem Solving",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "468\nL:P=1:2\nTanjung Cinta",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-19",
+    "nomor": 19,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Geometri",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Keluarga Andika terdiri dari Andika, istri Andika, 1 orang anak laki laki dan 2 orang\nanak Perempuan. Mereka memiliki meja makan yang berbentuk lingkaran dengan 5\nkursi. Berapa banyak cara mereka duduk sehingga Andika dan Istri selalu duduk\nberdekatan?",
+    "pilihan": [],
+    "kunci_jawaban": "12",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "12\nKarena Andika dan Istri selalu duduk berdekatan maka dapat dianggap 4 orang yang\nduduk melingkar, sehingga terdapat 3x2x1=6 cara.\nKarena cara duduk Andika dan Istri ada 2 cara maka cara duduk kelima orang tersebut\nada 6x2=12 cara."
+  },
+  {
+    "id": "OSN-SD-MAT-PROV-20",
+    "nomor": 20,
+    "mapel": "Matematika",
+    "bab": "BAB 2: OSN Tingkat Provinsi",
+    "tingkat": "Provinsi",
+    "tipe": "uraian",
+    "topik": "Teori Bilangan & Pola",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Misalkan diberikan tujuh angka, 0 ,1, 2, 3, 6, 7, dan 9. Akan dibentuk sebuah\nbilangan yang terdiri dari 4 angka, dengan setiap angka hanya digunakan sekali dan\nangka pertama tidak boleh sama dengan nol.\nBanyaknya bilangan genap yang terbentuk adalah … bilangan",
+    "pilihan": [],
+    "kunci_jawaban": "320",
+    "petunjuk": "Gunakan model aljabar atau buat persamaan sederhana dari variabel yang diketahui.",
+    "pembahasan": "320\nMisal bilangan tersebut : ABCD Kasus I, D = 0\nA memiliki 6 cara\nB memiliki 5 cara\nC memiliki 4 cara\nJadi terdapat 120 bilangan Kasus II, D = 2\nA memiliki 5 tempat\nB memiliki 5 tempat\nC memiliki 4 tempat\nJadi terdapat 100 bilangan Kasus III, D = 6\nA memiliki 5 tempat\nB memiliki 5 tempat\nC memiliki 4 tempat\nJadi terdapat 100 bilangan\nJadi banyaknya bilangan yang terbentuk adal 120 + 100 + 100 = 320 bilangan.\nBAB 3\nC\nC\nBAB 3\nOSN Semi Final"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-01",
+    "nomor": 1,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Geometri Bidang Datar",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Perhatikan gabungan bangun datar di bawah.\nJika luas satu petak kecil sama dengan   cm , maka luas daerah segitiga ABC adalah …\n𝑐𝑚  .",
+    "pilihan": [],
+    "kunci_jawaban": "5 satuan luas",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "5 satuan luas\nLuas persegi besar = Lb = 36 Luas persegi kecil = Lk = 16 L1=18, L2=9, L3=3, L4=4,\nL5=8\nLuas daerah diarsir = ½ (36+16-18-9-3-4-8) = ½ 10\n= 5 satuan luas\nSoal Isian Singkat\n𝑎\n𝑎 + 1\n𝑎 + 2\n𝑎 + 3\n𝑎 + 4\n𝑎 + 5\n𝑎 + 6"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-02",
+    "nomor": 2,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Teori Bilangan & Deret",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Diketahui hasil penjumlahan tujuh bilangan bulat berurutan merupakan bilangan\nbulat terbesar yang kurang dari 1195. Bilangan terkecil dari tujuh bilangan bulat\ntersebut adalah ....",
+    "pilihan": [],
+    "kunci_jawaban": "167",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "167\nKarena hasil penjumlahan dari tujuh bilangan bulat berurutan, maka akan diperoleh\nurutan bilangan sbb:\nMisalkan tujuh bilangan berturut-turut adalah 𝑎, 𝑎 + 1, 𝑎 + 2, 𝑎 + 3, 𝑎 + 4, 𝑎 + 5, 𝑎 + 6.\nMaka:\n𝑎 + 𝑎 + 1 + 𝑎 + 2 + 𝑎 + 3 + 𝑎 + 4 + 𝑎 + 5 + 𝑎 + 6 = 7𝑎 + 21\nSehingga 7𝑎 + 21 merupakan bilangan bulat kelipatan tujuh.\nBilangan bulat terbesar kurang dari 1195 yang merupakan kelipatan tujuh adalah 1190.\nMenentukan bilangan terkecil sama dengan mencari nilai a\n7a + 21 = 1190\n7a = 1169\na = 167"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-03",
+    "nomor": 3,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Teori Bilangan & Deret",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Banyak angka nol pada akhir bilangan 17020000 adalah 4. Jika N merupakan hasil\nperkalian semua bilangan asli kelipatan 5 kurang dari 107, maka banyak angka nol pada\nakhir bilangan N adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "17",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "17\nPerkalian bilangan-bilangan tersebut adalah:\nN=5x10x15x20x25x30x35x40x45x50x55x60x65x70x75x80x85x90x95x100x105\n=(5x15x2x25x3x35x4x45x5x55x6x65x7x75x8x85x9x95x105)x1010\n=(5x30x25x3x140x45x5x330x65x7x600x85x9x95x105)x1010\n=(5x3x25x3x14x45x5x33x65x7x6x85x9x95x105)x1015\n=(5x3x25x3x630x5x33x65x7x510x9x95x105)x1015\n=(5x3x25x3x63x5x33x65x7x51x9x95x105)x1017\nJadi ada 17 angka nol di akhir bilangan N\nCara lain 1:\nBilangan penghasil angka nol di bagian belakang dari perkalian:"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-04",
+    "nomor": 4,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Geometri Bidang Datar",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Misal diberikan suatu segitiga sama kaki ABC dengan AB = BC = 18 cm serta AC = 30\ncm. Titik D dan E adalah titik-titik pada AC sehingga luas segitiga ADB = luas segitiga\nDEB = luas segitiga ECB. Keliling segitiga DEB adalah … cm.\nJawab 36 cm\nKarena luas segitiga ADB=DEF=ECB, maka AD=DE=EC= 10 cm.\nMisalkan F adalah titik Tengah AC, maka BF=\nKarena FE = FC-EC=15-10=5 cm, sehingga BE=\nSehingga keliling segitiga DEB adalah cm 10 + 13 + 13 = 36cm.",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-05",
+    "nomor": 5,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "x 20 = 100",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-06",
+    "nomor": 6,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Jika b merupakan bilangan bulat terbesar sehingga   <      <    dan a merupakan\nbilangan bulat terkecil sehingga 𝑏     <      <      , maka nilai b-a = ....",
+    "pilihan": [],
+    "kunci_jawaban": "8",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "8\nb"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-07",
+    "nomor": 7,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Jarak titik A ke titik B adalah     km. Bila C terletak di  antara A dan B sehingga AC :\nCB = 3 : 5, D terletak di antara A dan B sehingga AD : DB = 4 : 1. Jarak C ke D adalah …\nmeter.",
+    "pilihan": [],
+    "kunci_jawaban": "255 meter",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "255 meter\nAB = 3/5 km = 3/5 x 1000 = 600 m\nAC:CB = 3:5 ◻ AC:AB = 3:8 ◻ AC = 3/8 x 600 = 225 meter\nAD:DB = 4:1 ◻ AD:AB=4:5 ◻ AD = 4/5 x 600 = 480 meter\nJadi jarak C ke D = 480-225 = 255 meter"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-08",
+    "nomor": 8,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "SD Matahari Pertiwi melakukan survei terhadap 300 murid-murid nya mengenai\nkegiatan mereka di hari Minggu. Empat kategori kegiatan yang disurvei adalah: belajar\nkelompok, olahraga, bermain game, dan membaca buku. Hasil survei sebagai berikut:\nbanyak murid yang membaca buku 60 anak, banyak murid yang belajar kelompok 90\nanak, dan banyak murid yang memilih bermain game 50% lebih banyak dari banyak\nmurid yang memilih olahraga. Hasil survei dapat digambarkan dalam diagram lingkaran\ndi bawah ini. Selisih besar sudut yang mewakili aktivitas bermain game dan olahraga\nadalah … derajat.\nCatatan: ukuran sudut pada gambar bukan ukuran sebenarnya.",
+    "pilihan": [],
+    "kunci_jawaban": "36",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "36\nMenghitung jumlah siswa untuk kategori yang tidak diketahui:\nDiketahui: Total siswa = 300, BK = 90 dan MB = 60. Maka BK + OR + BG + MB = 300"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-09",
+    "nomor": 9,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Suatu kecamatan memiliki tiga desa yaitu P, Q, dan R. Setiap orang di kecamatan\nyang bekerja, hanya bekerja di salah satu desa tersebut. Pada gambar berikut, arah\npanah dari desa R menuju desa Q menunjukkan persentase 35%, artinya 35% penduduk\nyang tinggal di desa R bekerja di desa Q. Begitu juga pada arah panah yang lain\nmemiliki makna yang serupa.\nJika banyak penduduk yang bekerja dan tinggal di desa P, Q, dan R berturut-turut\nadalah 320, 400, dan 380, maka banyak penduduk yang bekerja di desa Q adalah …\norang.",
+    "pilihan": [],
+    "kunci_jawaban": "357 orang",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "357 orang\nMisalkan jumlah orang yang tinggal di desa P, Q, dan R secara berturut-turut adalah 𝑝,\n𝑞, 𝑟.\nJumlah orang yang bekerja di desa Q adalah gabungan dari:\nOrang yang tinggal di P dan bekerja di Q\nOrang yang tinggal di R dan bekerja di Q\nOrang yang tinggal di Q dan bekerja di Q\nAtau"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-10",
+    "nomor": 10,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "isian_singkat",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Pak Barli mengemudikan mobil dari rumahnya menuju bandara menempuh 56 km\nselama satu jam, tetapi belum sampai bandara. Pak Barli menyadari bahwa jika terus\nmelaju dengan kecepatan tersebut, maka akan terlambat 1 jam. Ia kemudian menaikkan\nkecepatannya sebesar 24 km/jam untuk sisa perjalanan ke bandara dan tiba 30 menit\nlebih awal. Jarak dari rumah Pak Barli ke bandara adalah… km.",
+    "pilihan": [],
+    "kunci_jawaban": "336 km",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "336 km\nMisalkan:\nJarak ke bandara setelah menempuh 56 km di jam pertama adalah 𝑠.\nWaktu pak Barli sampai di bandara tepat waktu adalah 𝑡.\nMaka:\nMaka, jarak dari rumah ke bandara adalah 280+56 = 336km"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-11",
+    "nomor": 11,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "uraian",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "AB adalah bilangan dua angka dengan A dan B merupakan bilangan prima. Jika AB\nhabis dibagi A dan habis dibagi B, maka banyak bilangan AB yang memenuhi sifat-sifat\ntersebut adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "4 bilangan yaitu 22, 33, 55, 77",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "4 bilangan yaitu 22, 33, 55, 77\nBilangan prima satu angka adalah 2,3,5 dan 7.\nBilangan 2 angka yang terbentuk adalah\n22,23,25,27,32,33,35,37, 52,53,55,57, 72,73,75, dan 77\nYang memenuhi sifat A|AB dan B|AB adalah 22, 33, 55, dan 77\nJadi ada 4 bilangan yang memenuhi sifat-sifat tersebut."
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-12",
+    "nomor": 12,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "uraian",
+    "topik": "Geometri Bidang Datar",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Diketahui ABCD trapesium dengan AD sejajar BC dan ukuran sisi-sisi seperti\ntampak pada gambar.\nLet ABCD be a trapezium with AD parallel to BC, and the length of the sides are shown\nin the figure below.\nLuas daerah ABCD = … cm .\nThe area of ABCD = … cm .",
+    "pilihan": [],
+    "kunci_jawaban": "84 cm",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "84 cm\nBila AM = a cm, maka LB = 21 – 7 – a = 14 – a Dan t   = 169 - a   , t   = 225 – (14 – a)\n◻ 225 – 169 = (14 – a)   – a ."
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-13",
+    "nomor": 13,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "uraian",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Suatu perusahaan media digital menyediakan tiga paket pemasangan reklame di\ntempat strategis yaitu:\nPaket A: Rp121.000.000 untuk 10 titik.\nPaket B: Rp15.000.000 per titik.\nPaket C: Rp13.000.000 per titik, minimal pemasangan 5 titik dan maksimal 9 titik,\nbila pemasangan lebih dari 5 titik mendapat diskon tambahan 10% untuk\npemasangan titik ke-6, ke-7, ke- 8, dan ke-9.\nBila seorang klien ingin memasang iklan di 13 titik, maka biaya pemasangan paling\nmurah adalah ... rupiah.",
+    "pilihan": [],
+    "kunci_jawaban": "Rp165.100.000.",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "Rp165.100.000.\nKombinasi paket yang mungkin untuk 13 titik.\nKemungkinan 1: Paket A (10 titik) + Paket B (3 titik)\nBiaya Paket A: Rp121.000.000\nBiaya 3 titik tambahan (Paket B): 3 × Rp15.000.000 = Rp45.000.000\nTotal biaya: Rp121.000.000 + Rp45.000.000 = Rp166.000.000\nKemungkinan 2: Paket B (13 titik)\nBiaya 13 titik (Paket B): 13 × Rp15.000.000 = Rp195.000.000\nKemungkinan 3: Paket C (9 titik) + Paket B (4 titik)\nBiaya 9 titik (Paket C): 5 titik awal: 5 × Rp13.000.000 = Rp65.000.000"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-14",
+    "nomor": 14,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "uraian",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "Di dalam lemari pakaian terdapat tujuh baju, yaitu baju warna merah, jingga, kuning,\nhijau, biru, nila, dan ungu, juga terdapat tujuh celana dengan warna merah, jingga,\nkuning, hijau, biru, nila, dan ungu. Banyak cara seorang penata gaya mengambil lima\npotong pakaian sehingga terdapat tepat sepasang baju dan celana dengan warna yang\nsama adalah ….",
+    "pilihan": [],
+    "kunci_jawaban": "280 cara",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": "280 cara"
+  },
+  {
+    "id": "OSN-SD-MAT-SEMI-15",
+    "nomor": 15,
+    "mapel": "Matematika",
+    "bab": "BAB 3: OSN Tingkat Semifinal",
+    "tingkat": "Semifinal",
+    "tipe": "uraian",
+    "topik": "Penalaran Matematika & Eksplorasi",
+    "tingkat_kesulitan": "HOTS / Sangat Sulit",
+    "pertanyaan": "x 40 = 600 (*)",
+    "pilihan": [],
+    "kunci_jawaban": "",
+    "petunjuk": "Perhatikan sifat simetri atau sifat keterbagian bilangan untuk menemukan pola ringkas.",
+    "pembahasan": ""
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-01",
+    "nomor": 1,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Teori Bilangan & Barisan Aritmatika",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Bilangan bulat positif $a, b,$ dan $c$ berurutan dari kecil ke besar dengan selisih setiap dua bilangan yang berurutan adalah sama. Bila jumlah ketiga bilangan adalah 33, maka selisih terbesar bilangan $a$ dan $b$ adalah ....",
+    "pilihan": [],
+    "kunci_jawaban": "10",
+    "petunjuk": "Jika $a, b, c$ membentuk barisan aritmatika dengan beda $d$, maka $a = b - d$ dan $c = b + d$. Jumlahnya $a + b + c = 3b$.",
+    "pembahasan": "Karena selisih antar suku berurutan sama, misalkan bilangan tersebut adalah $b - d, b, b + d$. Jumlah ketiga bilangan: $(b - d) + b + (b + d) = 3b = 33 \\implies b = 11$. Bilangan harus positif, sehingga $a = 11 - d > 0 \\implies d \\le 10$. Selisih terbesar antara $a$ dan $b$ adalah $d = 10$, yang terjadi ketika $a = 1, b = 11, c = 21$."
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-02",
+    "nomor": 2,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Teori Bilangan & Pecahan",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "If $a$ and $b$ are positive integers such that $\\frac{3}{a} - \\frac{b}{5} = 0.2$, then the smallest possible value of $b$ is ....",
+    "pilihan": [],
+    "kunci_jawaban": "2",
+    "petunjuk": "Ubah $0.2$ menjadi pecahan $\\frac{1}{5}$, lalu samakan penyebutnya: $\\frac{3}{a} = \\frac{b+1}{5}$.",
+    "pembahasan": "Persamaan: $\\frac{3}{a} - \\frac{b}{5} = \\frac{1}{5} \\implies \\frac{3}{a} = \\frac{b + 1}{5} \\implies a(b + 1) = 15$. Karena $a$ dan $b$ adalah bilangan bulat positif ($b \\ge 1$), maka $b + 1 \\ge 2$ dan $b+1$ harus merupakan faktor dari 15. Faktor dari 15 yang $\\ge 2$ adalah 3, 5, 15. Nilai $b$ terkecil terjadi saat $b + 1 = 3 \\implies b = 2$. Untuk $b=2 \\implies a = 5$, sehingga $\\frac{3}{5} - \\frac{2}{5} = \\frac{1}{5} = 0.2$."
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-03",
+    "nomor": 3,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Geometri Segitiga",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Diketahui $ACB$ segitiga sama kaki, $AC = BC = 10\\text{ cm}, AB = 12\\text{ cm}$. Jika $D$ pada $BC$ sehingga $AD$ tegak lurus $BC$, maka luas segitiga $ABD$ adalah ... $\\text{cm}^2$.",
+    "pilihan": [],
+    "kunci_jawaban": "34.56",
+    "petunjuk": "Hitung luas segitiga $ABC$ dengan tinggi dari $C$ ke $AB$, lalu cari panjang garis tinggi $AD$.",
+    "pembahasan": "Tarik garis tinggi $CE$ tegak lurus $AB$. Karena segitiga sama kaki, $AE = 6\\text{ cm}$. Tinggi $CE = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$. Luas $\\triangle ABC = \\frac{1}{2} \\times 12 \\times 8 = 48\\text{ cm}^2$. Dari rumus luas alas $BC$: $\\frac{1}{2} \\times 10 \\times AD = 48 \\implies AD = 9.6\\text{ cm}$. Pada $\\triangle ABD$ siku-siku di $D$: $BD = \\sqrt{12^2 - 9.6^2} = 7.2\\text{ cm}$. Luas $\\triangle ABD = \\frac{1}{2} \\times 7.2 \\times 9.6 = 34.56\\text{ cm}^2$."
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-04",
+    "nomor": 4,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Aritmatika Kecepatan & Jarak",
+    "tingkat_kesulitan": "HOTS",
+    "pertanyaan": "Farhan dan Fauzan berlomba lari mengitari lapangan yang kelilingnya 1800 meter sebanyak dua putaran. Setiap putaran berakhir, kecepatan Farhan turun 10% dan kecepatan Fauzan turun 50%. Farhan mengitari lapangan pertama kali dengan kecepatan 6 km/jam. Jika Fauzan ingin menang dari Farhan dengan selisih dua menit, maka kecepatan Fauzan mengitari lapangan pertama kali adalah ... km/jam.",
+    "pilihan": [],
+    "kunci_jawaban": "9",
+    "petunjuk": "Hitung total waktu tempuh Farhan untuk 2 putaran dalam satuan menit.",
+    "pembahasan": "Putaran 1 Farhan: $v_1 = 6\\text{ km/jam} = 100\\text{ m/menit}$. Waktu putaran 1: $t_{F1} = 18\\text{ menit}$. Putaran 2 Farhan: kecepatan turun 10% menjadi $90\\text{ m/menit}$, waktu putaran 2: $t_{F2} = 20\\text{ menit}$. Total waktu Farhan = $38\\text{ menit}$. Total waktu Fauzan = $38 - 2 = 36\\text{ menit}$. Dengan kecepatan awal $v$, waktu total Fauzan: $\\frac{1800}{v} + \\frac{1800}{0.5v} = \\frac{5400}{v} = 36 \\implies v = 150\\text{ m/menit} = 9\\text{ km/jam}$."
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-05",
+    "nomor": 5,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Kombinatorika & Posisi",
+    "tingkat_kesulitan": "HOTS",
+    "pertanyaan": "Amir, Budi, Carli, Doni, dan Eki akan naik bus dari Jakarta ke Surabaya. Mereka dapat tempat di deretan kursi paling depan yang memiliki lima kursi terdiri dari dua kursi berdekatan (sisi kiri lorong) dan tiga kursi berdekatan (sisi kanan lorong). Bila Amir ingin duduk di dekat jendela dan Budi ingin duduk di samping lorong, maka banyak posisi duduk berbeda yang mungkin adalah ....",
+    "pilihan": [],
+    "kunci_jawaban": "24",
+    "petunjuk": "Tentukan banyaknya pilihan kursi untuk Amir (kursi jendela = 2 pilihan), lalu kursi untuk Budi (kursi lorong = 2 pilihan). Sisanya 3 teman diatur dalam 3! = 6 cara.",
+    "pembahasan": "Pilihan untuk Amir (dekat jendela) = 2 kemungkinan (jendela kiri atau jendela kanan). Pilihan untuk Budi (samping lorong) = 2 kemungkinan (lorong kiri atau lorong kanan). Tiga orang lainnya menempati 3 kursi tersisa secara acak = $3! = 6$ cara. Total kombinasi = $2 \\times 2 \\times 6 = 24$ posisi berbeda."
+  },
+  {
+    "id": "OSN-SD-MAT-FIN-06",
+    "nomor": 6,
+    "mapel": "Matematika",
+    "bab": "BAB 4: OSN Tingkat Final",
+    "tingkat": "Final",
+    "tipe": "isian_singkat",
+    "topik": "Teori Bilangan & Kongruensi",
+    "tingkat_kesulitan": "Sulit",
+    "pertanyaan": "Suatu bilangan ratusan jika ditambah 1 merupakan kelipatan 3, sedangkan jika ditambah dengan 2 merupakan kelipatan 5. Jika semua bilangan ratusan tersebut diurutkan dari terkecil ke terbesar, maka urutan kelima adalah ....",
+    "pilihan": [],
+    "kunci_jawaban": "173",
+    "petunjuk": "Bilangan $N \\equiv 2 \\pmod 3$ dan $N \\equiv 3 \\pmod 5$, sehingga membentuk barisan $N = 15k + 8$.",
+    "pembahasan": "Bentuk umum bilangan adalah $N = 15k + 8$. Untuk bilangan ratusan ($N \\ge 100$), nilai $k$ dimulai dari 7: $N_1 = 15(7) + 8 = 113$. Urutan ke-2: 128. Urutan ke-3: 143. Urutan ke-4: 158. Urutan ke-5: 173. Cek: $173 + 1 = 174$ (kelipatan 3) dan $173 + 2 = 175$ (kelipatan 5). Jawaban: 173."
+  }
+]
